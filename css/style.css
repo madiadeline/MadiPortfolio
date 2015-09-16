@@ -1,38 +1,72 @@
-div {
-	position: relative;
-	display: inline-block;
+#container {
+	/* The following two styles control the centering of the container div*/
+	position:relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	text-align:left;
+}
+
+#header {
+	background-color: #E9D4FF;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
 	height: 100px;
-	width: 100px;
-	border-radius: 100%;
-	border: 2px solid black;
-	margin-left: 5px;
-	margin-top: 5px;
-	text-align: center;
+	text-align:center;
 }
 
-div p {
-	position: relative;
-	margin-top: 40px;
-	font-size: 12px;
+#nav {
+	background-color: #FFECFF;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 800px;
+	height:30px;
+	text-align:center;
+	font-family: Varela Round, arial, sans-serif
 }
 
-.friend {
-	border: 2px dashed green;
+#content {
+	background-color: #FFECFF;
+	position:absolute;
+	top:130px;
+	left:0px;
+	width:800px;
+	height:500px;
+	text-align:center;
+	font-family: Varela Round, arial, sans-serif
+}
+/*---------------------------------------------------*/
+	
+body {
+	background-color: #DDDDDD;
 }
 
-.enemy {
-	border: 2px dashed red;
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
 }
 
-.family {
-	border: 2px dashed blue;
+li {
+	display:inline;
 }
 
-#best-friend {
-	border: 4px solid green;
+.nav {
+	text-decoration:none;
+	margin-left:50px;
+	margin-right:50px;
 }
 
-#mortal-enemy {
-	border: 4px solid red;
+.nav:hover {
+	background-color:black;
+	color:white;
 }
 
+h1 {
+	font-family: Varela Round, arial, sans-serif
+}
+
+    

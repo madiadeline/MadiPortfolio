@@ -1,27 +1,60 @@
+<!doctype html>
 <html>
-
 <head>
-	<title>Portfolio</title>
-	
-	<link type="text/css" rel="stylesheet" href="css/style.css"/>
-	
+<script type="text/javascript" src="js/jquery.js"></script>
+
+<script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="jquery.lightbox-0.5.css" media="screen" />
+
+<link href='https://fonts.googleapis.com/css?family=Lobster|Josefin+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="my-styles.css">
+<meta charset="utf-8">
+<title>Home Page</title>
 </head>
 
 <body>
+<script type="text/javascript">
+$(function() { $('a[@rel*=lightbox]').lightBox();});
+</script>
 
-<h1>Matty Deer Profile Home Page</h1>
-
-<p>Just getting a second working commit for github, to get pulls and pushes going with the commits</p>
-
-<div class="friend" id="best-friend"><p>Heath</p></div>
-<div class="friend"><p>Luke</p></div>
-<div><p>Guili</p></div>
-<div class="friend"><p>Shauna</p></div>
-<div class="enemy" id="mortal-enemy"><p>Amber</p></div>
-<div class="enemy"><p>Cass</p></div>
-<div class="family"><p>Jezreal</p></div>
-<div class="family"><p>Reggae</p></div>
+	<div id="container">
+    
+    	<div id="header">
+        	<h1>Matty Adeline Waaka Deer</h1>
+        </div>
+        
+        <div id="nav">
+        	<ul>
+            	<li><a class="nav" href="#">Home</a></li>
+                <li><a class="nav" href="#">Second Page</a></li>
+                <li><a class="nav" href="#">Gallery</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+        <a href="images/art-umbrella-rain-girl_large.png" rel="lightbox" title="Umbrella girl">
+        <img src="images/art-umbrella-rain-girl_thumbnail.png" width="150" height="150" alt=""/>
+        </a>
+        
+        <a href="images/deer-art_large.png" rel="lightbox" title="Deer Art">
+        <img src="images/deer-art_thumbnail.png" width="150" height="150" alt=""/>
+        </a>
+        
+        <a href="images/Love-Heart-Art_large.png" rel="lightbox" title="Love Heart Art">
+        <img src="images/Love-Heart-Art_thumbnail.png" width="150" height="150" alt=""/>
+        </a>
+        
+        <a href="images/street-art-large.png" rel="lightbox" title="Street Art">
+        <img src="images/Street-Art_thumbnail.png" width="150" height="150" alt=""/>
+        </a>
+        
+        <a href="images/stylized-womans-face_large.png" rel="lightbox" title="Stylized Womans Face">
+        <img src="images/stylized-womans-face_thumbnail.png" width="150" height="150" alt=""/>
+        </a>
+        </div>
+    
+    </div>
 
 </body>
-
 </html>

@@ -1,72 +1,86 @@
 #container {
-	/* The following two styles control the centering of the container div*/
-	position:relative;
-	margin: 0 auto;
-	margin-top: 50px;
-	width: 800px;
-	text-align:left;
-}
+  /* The following two styles control the centering of the container div*/
+  position: relative;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 1000px;
+  text-align: left;
+  padding: 0px; }
 
 #header {
-	background-color: #E9D4FF;
-	position:absolute;
-	top: 0px;
-	left: 0px;
-	width: 800px;
-	height: 100px;
-	text-align:center;
-}
+  border-left: 2px solid #e9d4ff;
+  border-right: 2px solid #e9d4ff;
+  border-top: 2px solid #e9d4ff;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 1000px;
+  height: 100px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 #nav {
-	background-color: #FFECFF;
-	position: absolute;
-	top: 100px;
-	left: 0px;
-	width: 800px;
-	height:30px;
-	text-align:center;
-	font-family: Varela Round, arial, sans-serif
-}
+  border-left: 2px solid #e9d4ff;
+  border-right: 2px solid #e9d4ff;
+  position: absolute;
+  top: 202px;
+  left: 0px;
+  width: 1000px;
+  height: 30px;
+  text-align: center;
+  font-family: Varela Round, arial, sans-serif; }
 
 #content {
-	background-color: #FFECFF;
-	position:absolute;
-	top:130px;
-	left:0px;
-	width:800px;
-	height:500px;
-	text-align:center;
-	font-family: Varela Round, arial, sans-serif
-}
-/*---------------------------------------------------*/
-	
-body {
-	background-color: #DDDDDD;
-}
+  border-left: 2px solid #e9d4ff;
+  border-right: 2px solid #e9d4ff;
+  position: absolute;
+  top: 232px;
+  left: 0px;
+  width: 960px;
+  height: 768px;
+  text-align: center;
+  font-family: Varela Round, arial, sans-serif;
+  padding: 20px;
+  border-bottom: 2px solid #e9d4ff;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px; }
 
 ul {
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-}
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px; }
 
 li {
-	display:inline;
-}
+  display: inline; }
 
 .nav {
-	text-decoration:none;
-	margin-left:50px;
-	margin-right:50px;
-}
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 2px solid white;
+  padding: 5px; }
 
 .nav:hover {
-	background-color:black;
-	color:white;
-}
+  background-color: white;
+  color: #000;
+  border: 2px solid #e9d4ff;
+  padding: 5px;
+  border-radius: 20px; }
+
+.active {
+  background-color: white;
+  color: #000;
+  border: 2px solid #e9d4ff;
+  padding: 5px;
+  border-radius: 20px; }
 
 h1 {
-	font-family: Varela Round, arial, sans-serif
-}
+  font-family: Varela Round, arial, sans-serif; }
 
-    
+p {
+  color: #666; }
+
+/*# sourceMappingURL=style.css.map */

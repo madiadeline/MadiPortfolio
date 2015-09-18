@@ -7,47 +7,64 @@
 	position:relative;
 	margin: 0 auto;
 	margin-top: 50px;
-	width: 800px;
+	width: 1000px;
 	text-align:left;
+    padding: 0px;
 }
 
 #header {
-	background-color: #E9D4FF;
+
+    border-left: 2px solid #e9d4ff;
+    border-right: 2px solid #e9d4ff;
+    border-top: 2px solid #e9d4ff;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
 	position:absolute;
 	top: 0px;
 	left: 0px;
-	width: 800px;
+	width: 1000px;
 	height: 100px;
 	text-align:center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+
 }
 
 #nav {
-	background-color: #FFECFF;
+
+    border-left: 2px solid #e9d4ff;
+    border-right: 2px solid #e9d4ff;
 	position: absolute;
-	top: 100px;
+	top: 202px;
 	left: 0px;
-	width: 800px;
+	width: 1000px;
 	height:30px;
 	text-align:center;
-	font-family: Varela Round, arial, sans-serif
+	font-family: Varela Round, arial, sans-serif;
+
 }
 
 #content {
-	background-color: #FFECFF;
+
+    border-left: 2px solid #e9d4ff;
+    border-right: 2px solid #e9d4ff;
 	position:absolute;
-	top:130px;
+	top:232px;
 	left:0px;
-	width:800px;
-	height:500px;
+	width:960px;
+	height:768px;
 	text-align:center;
-	font-family: Varela Round, arial, sans-serif
+	font-family: Varela Round, arial, sans-serif;
+    padding: 20px;
+    border-bottom: 2px solid #e9d4ff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
 }
 
-border {
-	
-	Background-color: #FFECFF;
-	
-}
+
 
 ul {
 	list-style-type:none;
@@ -59,17 +76,36 @@ li {
 	display:inline;
 }
 
+
+
 .nav {
 	text-decoration:none;
 	margin-left:50px;
 	margin-right:50px;
+    border: 2px solid white;
+    padding: 5px;
 }
 
 .nav:hover {
-	background-color:black;
-	color:white;
+	background-color: white;
+	color: black;
+    border: 2px solid #e9d4ff;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.active {
+    background-color: white;
+    color: black;
+    border: 2px solid #e9d4ff;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 h1 {
-	font-family: Varela Round, arial, sans-serif
+	font-family: Varela Round, arial, sans-serif;
+}
+
+p {
+    color: #666;
 }

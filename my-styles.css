@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+/*---------------------------------------------------*/
+/* The following id styles define the div tags on my web pages*/
+#container {
+	/* The following two styles control the centering of the container div*/
+	position:relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	width: 800px;
+	text-align:left;
+}
+
+#header {
+	background-color: #E9D4FF;
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 800px;
+	height: 100px;
+	text-align:center;
+}
+
+#nav {
+	background-color: #FFECFF;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 800px;
+	height:30px;
+	text-align:center;
+	font-family: Varela Round, arial, sans-serif
+}
+
+#content {
+	background-color: #FFECFF;
+	position:absolute;
+	top:130px;
+	left:0px;
+	width:800px;
+	height:500px;
+	text-align:center;
+	font-family: Varela Round, arial, sans-serif
+}
+
+border {
+	
+	Background-color: #FFECFF;
+	
+}
+
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+
+li {
+	display:inline;
+}
+
+.nav {
+	text-decoration:none;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.nav:hover {
+	background-color:black;
+	color:white;
+}
+
+h1 {
+	font-family: Varela Round, arial, sans-serif
+}

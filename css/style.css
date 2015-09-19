@@ -72,7 +72,7 @@ li {
 
 .nav:hover {
   background-color: white;
-  color: #000;
+  color: #905CAA;
   border: 2px solid #e9d4ff;
   padding: 5px;
   border-radius: 20px; 
@@ -80,7 +80,7 @@ li {
  
 .active {
   background-color: white;
-  color: #000;
+  color: #905CAA;
   border: 2px solid #e9d4ff;
   padding: 5px;
   border-radius: 20px; }

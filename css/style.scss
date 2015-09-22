@@ -13,6 +13,17 @@ $yellow: #CDF000;
   padding: 0px;
 }
 
+a {
+  color: $violet;
+}
+
+a:visit {
+  color: $violet;
+}
+
+
+
+
 #header {
 
   border-left: 2px solid $violet;
@@ -76,7 +87,6 @@ ul {
 li {
   display:inline;
 }
-
 
 
 .nav {
